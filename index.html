@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Penjualan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>MCL<span> JAYA</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#products">Produk</a></li>
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+            <div class="cart-icon">
+                <button id="cart-btn">
+                    <span>🛒</span>
+                    <span id="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+              <p></p>
+
+                <h2>Beras Putih Premium
+                Kualitas Terbaik</h2>
+                
+                <p>Nikmati beras putih berkualitas tinggi dengan harga terjangkau. Dapatkan beras langsung dari petani terpercaya.</p>
+                <a href="#products" class="btn">Lihat Produk</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Produk Kami</h2>
+            <div class="product-grid" id="product-grid">
+                <!-- Produk akan dimuat melalui JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Modal -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Keranjang Belanja</h2>
+            <div id="cart-items">
+                <!-- Item keranjang akan dimuat melalui JavaScript -->
+            </div>
+            <div class="cart-total">
+                <p>Total: <span id="total-price">Rp 0</span></p>
+                <button id="checkout-btn" class="btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Tentang Kami</h2>
+            <p>Kami adalah distributor beras putih premium yang telah berpengalaman lebih dari 10 tahun. Kami menyediakan beras berkualitas tinggi langsung dari petani terpercaya dengan harga yang kompetitif.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Hubungi Kami</h2>
+            <div class="contact-info">
+                <p>📞 087742891817</p>
+                <p>✉️ yusufmcl94@gmail.com</p>
+                <p>📍 Jl. Karang Sinom. 123, Indramayu</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 BerasPremium. Semua hak dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
