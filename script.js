@@ -10,7 +10,7 @@ const products = [
     {
         id: 2,
         name: "Beras Bulog",
-        description: "Beras kualitas bagus,",
+        description: "Beras kualitas bagus",
         price: 75000,
         image: "Bulog.jpg"
     },
